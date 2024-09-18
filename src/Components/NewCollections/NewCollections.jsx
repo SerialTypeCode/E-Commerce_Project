@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react'
 import './NewCollections.css'
 import Item from '../Items/Item'
@@ -13,6 +14,15 @@ const NewCollections = () => {
     },[])
 
     return (
+=======
+import React from 'react'
+import './NewCollections.css'
+import new_collection from '../Assets/new_collections'
+import Item from '../Items/Item'
+
+const NewCollections = () => { 
+    return ( 
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
         <div className='new-collections'>
             <h1>NEW COLLECTIONS</h1>
             <hr />

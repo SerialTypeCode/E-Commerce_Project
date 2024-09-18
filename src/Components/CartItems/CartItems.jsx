@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 import React, { useContext } from 'react'
+=======
+import React, { useState } from 'react'
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
 import './CartItems.css'
 import { ShopContext } from '../../Context/ShopContext'
 import remove_icon from '../Assets/cart_cross_icon.png'
 
 export const CartItems = () => {
+<<<<<<< HEAD
     const {getTotalCartAmount, all_product, cartItems, removeFromCart} = useContext(ShopContext);
+=======
+    const {getTotalCartAmount, all_product, cartItems, removeFromCart} = useState(ShopContext);
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
   return (
     <div className='cartitems'>
         <div className="cartitems-format-main">
@@ -39,7 +47,11 @@ export const CartItems = () => {
                 <div>
                     <div className="cartitems-total-item">
                         <p>Subtotal</p>
+<<<<<<< HEAD
                         <p>${getTotalCartAmount()}</p>
+=======
+                        <p>${getTotalCartAmount}</p>
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
                     </div>
                     <hr />
                     <div className="cartitems-total-item">
@@ -49,7 +61,11 @@ export const CartItems = () => {
                     <hr />
                     <div className="cartitems-total-item">
                         <h3>Total</h3>
+<<<<<<< HEAD
                         <h3>${getTotalCartAmount()}</h3>
+=======
+                        <h3>${getTotalCartAmount}</h3>
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
                     </div>
                 </div>
                 <button>Proceed to Checkout</button>
@@ -57,7 +73,11 @@ export const CartItems = () => {
             <div className="cartitems-promocode">
                 <p>If you have a promo code, enter it here</p>
                 <div className="cartitems-promobox">
+<<<<<<< HEAD
                     <input type="text" placeholder='promo code'/>
+=======
+                    <input type="type" placeholder='promo code'/>
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
                     <button>Submit</button>
                 </div>
             </div>
@@ -65,5 +85,8 @@ export const CartItems = () => {
     </div>
   )
 }
+<<<<<<< HEAD
 
 export default CartItems
+=======
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760

@@ -3,7 +3,10 @@
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+<<<<<<< HEAD
     align-items: center;
+=======
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
 }
 .nav-logo{
     display: flex;
@@ -71,6 +74,7 @@
     font-size: 14px;
     background: red;
     color: white;
+<<<<<<< HEAD
 }
 .nav-dropdown{
     display: none;
@@ -168,4 +172,6 @@
     .nav-login-cart{
         transform: scale(0.8);
     }
+=======
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
 }

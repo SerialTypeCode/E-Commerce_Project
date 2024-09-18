@@ -49,6 +49,7 @@
     display: inline;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
 }
 @media(max-width:1280px)
 {
@@ -143,4 +144,6 @@
         height: 45px;
         font-size: 14px;
     }
+=======
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
 }

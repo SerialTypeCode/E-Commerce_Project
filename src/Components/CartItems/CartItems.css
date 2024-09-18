@@ -91,6 +91,7 @@
     background: black;
     color: white;
     cursor: pointer;
+<<<<<<< HEAD
 }
 @media(max-width:1280px)
 {
@@ -160,4 +161,6 @@
         width: 80px;
         margin-left: -84px;
     }
+=======
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
 }

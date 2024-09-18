@@ -58,6 +58,7 @@
     color: #5c5c5c;
     font-size: 18px;
     font-weight: 500;
+<<<<<<< HEAD
 }
 @media(max-width:1280px)
 {
@@ -109,4 +110,6 @@
         height: 50px;
         font-size: 16px;
     }
+=======
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
 }

@@ -20,6 +20,7 @@
     margin-top: 50px;
     display: flex;
     gap: 30px;
+<<<<<<< HEAD
 }
 @media(max-width:1280px)
 {
@@ -81,4 +82,6 @@
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
+=======
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
 }

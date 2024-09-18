@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 import React, { useEffect, useState, createContext } from 'react'
 //import all_product from "../Components/Assets/all_product"
+=======
+import React, { createContext, useState } from 'react'
+import all_product from '../Components/Assets/all_product'
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
 
 export const ShopContext = createContext(null);
 
 const getDefaultCart = ()=>{
     let cart = {};
+<<<<<<< HEAD
     for(let index = 0; index < 300 + 1; index++)
+=======
+    for(let index = 0; index < all_product.length + 1; index++)
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
     {
         cart[index] = 0;
     }
@@ -13,6 +22,7 @@ const getDefaultCart = ()=>{
 }
 
 const ShopContextProvider = (props) => {
+<<<<<<< HEAD
 
     const [all_product,setAll_Product] = useState([]);
     const [cartItems,setCartItems] = useState(getDefaultCart());
@@ -64,6 +74,17 @@ const ShopContextProvider = (props) => {
                 body: JSON.stringify({"itemId":itemId}),
             }).then((response)=>response.json()).then((data)=>console.log(data));
         }
+=======
+    const[cartItems, setCartItems] = useState(getDefaultCart());
+
+    const addToCart = (itemId)=>{
+        setCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}))
+        console.log(cartItems);
+    }
+
+    const removeFromCart = (itemId)=>{
+        setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
     }
 
     const getTotalCartAmount = () => {

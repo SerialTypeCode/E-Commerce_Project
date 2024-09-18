@@ -51,6 +51,7 @@
     border-radius: 10px;
     height: 3px;
     background: #c7c7c7;
+<<<<<<< HEAD
 }
 @media(max-width:800px)
 {
@@ -77,4 +78,6 @@
     .footer-copyright{
         font-size: 13px;
     }
+=======
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
 }

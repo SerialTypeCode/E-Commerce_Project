@@ -10,7 +10,11 @@ const ProductDisplay = (props) => {
     return (
         <div className='productdisplay'>
             <div className="productdisplay-left">
+<<<<<<< HEAD
                 <div className="productdisplay-img-list">
+=======
+                <div className="productdisplay-img-left">
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
                     <img src={product.image} alt=""/>
                     <img src={product.image} alt=""/>
                     <img src={product.image} alt=""/>
@@ -18,8 +22,11 @@ const ProductDisplay = (props) => {
                 </div>
                 <div className="productdisplay-img">
                     <img className='productdisplay-main-img' src={product.image} alt=""/>
+<<<<<<< HEAD
                     <p className="productdisplay-right-category"><span>Category: </span>{product.category}</p>
                     <p className="productdisplay-right-category"><span>Tags: </span>Modern, Latest</p>
+=======
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
                 </div>
             </div>
             <div className="productdisplay-right">
@@ -51,8 +58,15 @@ const ProductDisplay = (props) => {
                     <div>XL</div>
                     <div>XXL</div>
                 </div>
+<<<<<<< HEAD
                 <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
             </div>
+=======
+            </div>
+            <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
+            <p className="productdisplay-right-category"><span>Category: </span>Women, T-Shirt, Crop Top</p>
+            <p className="productdisplay-right-category"><span>Tags: </span>Modern, Latest</p>
+>>>>>>> 773aef335b5b47a4485cf582f35d52e3e8ebd760
         </div>
     )
 }
